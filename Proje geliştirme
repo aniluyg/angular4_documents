@@ -1,0 +1,15 @@
+Proje geliştirme
+
+1. "ng new [project name]". komutu ile angular projesi oluşturulur. 
+info: project-name dizini oluşturur ve içine ilgili dosyaları atar. Oluşturulan projenin git konfigürasyonu vardır. bu dizine girilirse master branch i görülür
+
+2. [project name] dizinine girilip "npm start" komutu çalıştırılırsa angular site ayağa kalkar. Default olarak "http://localhost:4200/"
+
+3. Angular projesi eclipse e import edilir "File -> open projects from file system or archive" 
+
+4. Angular projesine sağ tıklanıp node_modules eclipse ten çıkartılır : properties -> resource filters -> add filter -> filtertype: exclude all, applies to: files, name matches : node_modules
+
+http://javasampleapproach.com/java-integration/integrate-angular-4-springboot-web-app-springtoolsuite
+
+5. Eclipse angular2 plugin: https://github.com/angelozerr/angular-eclipse/wiki/Installation-Update-Site
+   Eclipse angular ide.   : https://marketplace.eclipse.org/content/angular-ide

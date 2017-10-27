@@ -1,0 +1,8 @@
+Angular - unidirectional service communication (two way)
+
+https://coryrylan.com/blog/angular-observable-data-services
+https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/   --> Are there alternative solutions in the Angular world, other than a store?  başlığına da bak
+https://blog.angular-university.io/how-to-build-angular2-apps-using-rxjs-observable-data-services-pitfalls-to-avoid/ 
+
+ayrıca:
+you might not need redux : https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367

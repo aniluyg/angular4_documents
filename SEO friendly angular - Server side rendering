@@ -1,0 +1,9 @@
+SEO friendly angular - Server side rendering
+
+Nodejs (ör: express server) ile html i server side da render edip client a paslarız. Rest servis çağrımlarının hepsini de spring rest e paslarız.
+
+https://blog.pusher.com/make-angular-4-app-seo-friendly/
+https://universal.angular.io/
+https://scotch.io/tutorials/server-side-rendering-in-angular-2-with-angular-universal
+https://oliverveits.wordpress.com/2017/07/05/server-side-rendering-in-angular-4-with-universal/
+https://github.com/angular/universal-starter

@@ -1,0 +1,41 @@
+Kurulum:
+Kurulumda node yerine nvm tercih edilebilir, ben bu şekilde başladım.
+
+1. Node.js kurulumu
+
+Homebrew ile:
+"brew install node"  komutu çalıştırılır. Aşağıdakine benzer bir hata(symlink hatası) alırsanız, belirtilen çözümü uygulayın.
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink etc/bash_completion.d/npm
+/usr/local/etc/bash_completion.d is not writable.
+
+
+Çözüm: 
+"brew link node" komutu çalıştırılır ve "[directory] is not writable" hatası alınırsa şu komut çalıştırılır :"sudo chown -R `whoami` [directory]"
+"..symlinks created" mesajı alınana kadar yukarıdaki adım tekrarlanır.
+
+check setup: "node -v" ve "npm -v"
+
+2. install angular-cli
+"npm install -g @angular/cli"
+
+check setup: "ng -v" --> komut bulunamazsa bkz: Ek-2
+
+
+
+Ekler:
+1. angular-cli yi uninstall edip tekarar kurmak için(yanlış kurulumlarda) :
+
+npm uninstall -g angular-cli
+npm uninstall -g @angular/cli
+npm cache clean
+npm install -g @angular/cli@latest
+
+
+2. "ng -v" hata alırsa:
+
+bash_profile dosyasına şunu ekleyin "export PATH="/usr/local/Cellar/node/[node versiyon]]/libexec/npm/bin:$PATH"  
+https://github.com/angular/angular-cli/issues/5893
+
